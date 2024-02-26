@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; /* 아이템들을 수직 방향으로 정렬 */
+    align-items: center; /* 가로축을 기준으로 가운데 정렬 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+  }
+
+.main-text{
+    width: 29em;
+}
+
+
+div.card{
+    height: 100%;
+}
+
+#prevButton{
+    font-size: 15px;
+}
+
+#prevButton:hover {
+    cursor: pointer;
+}
+
+#alert-msg{
+    width: 50em;
+}
+
+
+@media (max-width:992px){
+    #prevButton {
+        display: none;
+    }
+}
